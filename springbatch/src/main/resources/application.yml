@@ -1,0 +1,14 @@
+spring:
+
+  #database
+  datasource-meta:
+    driver-class-name: ENC(cCG1aGgsQGgRzX98q5pktZtZyYXK39gDn4ErsLvS3BdL6rx5DhUq/g==)
+    jdbc-url: ENC(Eo7ZfAfL4TNkVVQOCvVnvCLS4DIuB9yBMIAL6F9kQQ3vLUFG4LvTxsyK7YdvEBT8QHhIg6AAUAaoa4WmWtWFfpkN9fpEo/IMBjrMmQMDNJ0UobrttqVi36zAdB2k+hJC0QRjlJxHH6Ms7R0nm2/SCJdk33GFViBGWSV4v8m+QFKRnZ4S7ENPHJG6nHpK+I/p)
+    username: ENC(5wn2gYh0L2TQM7YXarwjCA==)
+    password: ENC(K5Z92vgdsoGvzrKx5oKw5w==)
+
+  datasource-data:
+    driver-class-name: ENC(1/zup+WbGicvCKgWpYynf+C7LbTb8pBHNw4EFjQ/HboebL4TVOVjPw==)
+    jdbc-url: ENC(fMYAGNFeI6v5bkQmBRM+/dyk8ovA32LIVL83Z4L19h20SArDcLZ85BEMbAjNAB36nOkyxAmx7WIcvwNF9F0b54R4GiG/btnI5tqij+7WRNlQsrgM7yGLlCrrn2VEiHs6onkv0jp33gXFFBUW3oUQYis9vyNcwZ2gAzrPdVQHDrdwxeioD9nqbIRLu3Df1m8s)
+    username: ENC(Awe8JrAlNYv7/OPyt4WhVA==)
+    password: ENC(1A5jvZskS5JJOZGV0jG7Bw==)
