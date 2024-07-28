@@ -12,3 +12,18 @@ spring:
     jdbc-url: ENC(fMYAGNFeI6v5bkQmBRM+/dyk8ovA32LIVL83Z4L19h20SArDcLZ85BEMbAjNAB36nOkyxAmx7WIcvwNF9F0b54R4GiG/btnI5tqij+7WRNlQsrgM7yGLlCrrn2VEiHs6onkv0jp33gXFFBUW3oUQYis9vyNcwZ2gAzrPdVQHDrdwxeioD9nqbIRLu3Df1m8s)
     username: ENC(Awe8JrAlNYv7/OPyt4WhVA==)
     password: ENC(1A5jvZskS5JJOZGV0jG7Bw==)
+
+  # Batch
+  batch:
+
+    # 기본 Batch 비활성화
+    job.enabled: false
+
+    # Batch DB 설정
+    jdbc:
+
+      # 애플리케이션 실행 시점 DB 스키마 설정
+      initialize-schema: always
+
+      # DB 종류 지정
+      schema: ENC(pZLZPf77L1CYMa810/WMVI+rNTC2KnH8JoGJwMTt9z7weX3gwQyUKAw2qvR1oUJNMIqPOnevuTeHfwHAfnN/4M/0aVlSnljm)
