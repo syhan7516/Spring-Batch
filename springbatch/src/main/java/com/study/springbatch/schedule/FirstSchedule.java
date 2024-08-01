@@ -20,7 +20,7 @@ public class FirstSchedule {
     private final JobRegistry jobRegistry;
 
     // Schedule 등록
-    @Scheduled(cron = "10 * * * * *", zone = "Asia/Seoul")
+    // @Scheduled(cron = "10 * * * * *", zone = "Asia/Seoul")
     public void firstBatch() throws Exception {
 
         System.out.println("first schedule batch start");
