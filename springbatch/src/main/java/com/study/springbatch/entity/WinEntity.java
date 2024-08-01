@@ -22,6 +22,11 @@ public class WinEntity {
     // 보상 지급 여부
     private Boolean reward;
 
+    // 보상 지급 여부 변경 메서드
+    public void changeReward() {
+        this.reward = true;
+    }
+
     @Builder
     public WinEntity(Long winId, String userName, Long win, Boolean reward) {
         this.winId = winId;
