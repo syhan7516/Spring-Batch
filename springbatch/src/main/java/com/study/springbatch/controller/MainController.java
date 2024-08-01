@@ -36,4 +36,24 @@ public class MainController {
 
         return "Batch Success";
     }
+
+    @GetMapping("/second")
+    public String secondBatch(@RequestParam("value") String value) throws Exception {
+
+        System.out.println("second controller api batch start");
+
+        // JobParameters 생성
+        JobParameters jobParameters = new JobParametersBuilder()
+
+                // parameter 추가
+                .addString("date", value)
+
+                // 설정한 parameter 모아 JobParameters 생성
+                .toJobParameters();
+
+        // 작업 실행 (배치 처리 작업 이름으로 등록된 작업 가져오기)
+        jobLauncher.run(jobRegistry.getJob("secondJob"),jobParameters);
+
+        return "Batch Success";
+    }
 }
